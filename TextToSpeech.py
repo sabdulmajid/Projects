@@ -1,5 +1,8 @@
 import pyttsx3
 
-engine = pyttsx3.init()
-engine.say("This library turns text to speech!")
-engine.runAndWait()
+def speak(text):
+    engine = pyttsx3.init()
+    engine.say(text)
+    engine.runAndWait()
+
+speak("CS or SE at UW!")
