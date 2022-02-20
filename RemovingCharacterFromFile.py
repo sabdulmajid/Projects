@@ -3,7 +3,7 @@
 
 import os
 
-path = r"G:\My Drive\AS & A Past Papers\Topical Questions\Pure Maths 3 - Topical Questions"
+path = r"C:\Users\shaik\Videos\Intuitive - S1"
 for filename in os.listdir(path):
-    new_filename = filename.replace('Worksheet - P3 - ', '')
+    new_filename = filename.replace('Exam Hack_ CIE AS Maths _ S1 _ ', '')
     os.rename(os.path.join(path, filename), os.path.join(path, new_filename))
