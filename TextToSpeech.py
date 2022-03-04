@@ -5,4 +5,5 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-speak("CS or SE at UW!")
+
+speak("CS or SE at UW one day!")
